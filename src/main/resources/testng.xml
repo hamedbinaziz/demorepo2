@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Session Test Automation Suite" parallel="methods"  thread-count="2" verbose="0">
+
+	 
+	<test name="Different TestNG Feature Test" >
+		
+	
+		<packages>
+		<package name="maven1st_grp.maven1st_artifact.*"></package>
+		</packages>
+	
+</test>
+</suite> 
