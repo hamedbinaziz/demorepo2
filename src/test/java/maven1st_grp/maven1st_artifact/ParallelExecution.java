@@ -42,7 +42,7 @@ public class ParallelExecution {
 	       driver = new ChromeDriver();
 	       driver.get("https://www.demoqa.com"); 
 	       driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[2]/div/div[1]/div/div[1]")).click();
-	       driver.quit();
+	       driver.quit();// simple quit
 	 }
 }
 */
