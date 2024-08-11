@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class TestingMVN {
 
-@Test
+@Test //new changes
 public void sum() {
 	System.out.println("Sum");
 	int a=10+20;
